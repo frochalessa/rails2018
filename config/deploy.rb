@@ -24,6 +24,8 @@ set :log_level, :debug
 # Default value for :pty is false
 # set :pty, true
 
+set :rbenv_ruby, '2.5.0'
+
 # Default value for :linked_files is []
 append :linked_files, "config/database.yml", "config/secrets.yml"
 
